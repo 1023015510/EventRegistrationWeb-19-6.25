@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+ <!--串口配置-->
+ <serialInf>
+ <serial>
+ <!--串口通讯-->
+   <id>1</id>
+   <serialName>com2</serialName>
+   <baudRate>9600</baudRate>
+   <dataBits>8</dataBits>
+   <stopBits>1</stopBits>
+   <!-- 无、奇校验、偶校验 -->
+   <parity>无</parity>
+ </serial>   
+</serialInf>
+
+ <!--登录配置信息 -->
+  <loginInfo>
+    <user>55</user>
+    <password>66</password>
+  </loginInfo>
+</config>
