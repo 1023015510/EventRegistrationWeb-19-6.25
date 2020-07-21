@@ -17,7 +17,7 @@ namespace EventRegistrationWeb
         protected void btnLogin_Click(object sender, ImageClickEventArgs e)
         {
             //读XML配置文件
-            string configFile = "D:\\工作\\config.xml";
+            string configFile = "C:\\config.xml";
             LoginInfo login = ParseXML.getLoginInfo(configFile);
          
 
